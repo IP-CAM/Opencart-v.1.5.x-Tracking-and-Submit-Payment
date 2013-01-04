@@ -112,7 +112,10 @@ catalog/controller/common
 catalog/controller/error
 catalog/controller/feed
 catalog/controller/information
-catalog/controller/module
+catalog/controller/module/*
+!catalog/controller/module/account.php
+!catalog/controller/module/tracking.php
+
 catalog/controller/payment
 catalog/controller/product
 
@@ -125,7 +128,10 @@ catalog/language/english/english.php
 catalog/language/english/error
 catalog/language/english/information
 catalog/language/english/mail
-catalog/language/english/module
+catalog/language/english/module/*
+!catalog/language/english/module/account.php
+!catalog/language/english/module/tracking.php
+
 catalog/language/english/payment
 catalog/language/english/product
 catalog/language/english/shipping
@@ -145,9 +151,14 @@ catalog/model/tool
 catalog/model/total
 
 #Catalog -> View
-catalog/view/javascript
+catalog/view/javascript/*
+!catalog/view/javascript/easyslider
+
 catalog/view/theme/default/image
-catalog/view/theme/default/stylesheet
+catalog/view/theme/default/stylesheet/*
+!catalog/view/theme/default/stylesheet/easyslider.1.7.css
+!catalog/view/theme/default/stylesheet/tracking.css
+
 catalog/view/theme/default/template/account
 catalog/view/theme/default/template/affiliate
 catalog/view/theme/default/template/checkout
@@ -155,7 +166,9 @@ catalog/view/theme/default/template/common
 catalog/view/theme/default/template/error
 catalog/view/theme/default/template/information
 catalog/view/theme/default/template/mail
-catalog/view/theme/default/template/module
+catalog/view/theme/default/template/module/*
+!catalog/view/theme/default/template/module/tracking.tpl
+
 catalog/view/theme/default/template/payment
 catalog/view/theme/default/template/product
 
