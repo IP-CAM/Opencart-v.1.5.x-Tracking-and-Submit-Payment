@@ -16,3 +16,4 @@ Second:
 2. From the Administration panel enter "User Groups" from the "System/Users" menu.
 3. Update "Top Administrator" permission and check "report/payment_transfer" both (Access/Modify).
 4. Update "Top Administrator" permission and check "module/tracking" both (Access/Modify).
+
